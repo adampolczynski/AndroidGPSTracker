@@ -1,0 +1,30 @@
+<resources>
+    <string name="google_maps_key">AIzaSyDA97KKog1ZeEqtfFZ-odwio-hiWrPU1HU</string>
+    <string name="app_name">Simple Tracker</string>
+    <string name="background">Track your movement, save tracks, share map markers and manage created elements! App created as a part of portfolio.</string>
+    <string name="title_activity_maps_fragment">GoogleMap</string>
+    <string name="facebook_app_id">201183643678807</string>
+    <string name="but1text">User Panel</string>
+    <string name="but2text">Google Map</string>
+    <string name="but3text">Your tracks</string>
+    <string name="but4text">Your markers</string>
+    <string name="but5text">Settings</string>
+    <string name="slide">Slide to save!</string>
+    <string name="user_info">Some information about you:</string>
+    <string name="main_statistics">Statistics:</string>
+    <string name="main_distance">Your total distance:</string>
+    <string name="main_points">Your total points:</string>
+    <string name="main_going">Going somewhere? Track it!</string>
+    <string name="not_logged">Not logged in</string>
+    <string name="dialog_marker_title">Create marker.</string>
+    <string name="your_markers">Your markers:</string>
+    <string name="your_tracks">Your tracks:</string>
+    <string name="user_name">Name:</string>
+    <string name="user_mob">Vehicle:</string>
+    <string name="user_appro">Approach:</string>
+    <string name="user_destiny">Destiny:</string>
+    <string name="user_motiv">Motivation:</string>
+    <string name="current_points">Current track points:</string>
+    <string name="current_distance">Current track distance:</string>
+    <string-array name="categories"><item>Information</item><item>Warning</item></string-array>
+</resources>

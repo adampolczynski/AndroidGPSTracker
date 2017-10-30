@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/colorPrimary">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="markertitle"
+        android:ems="10"
+        android:id="@+id/etMarker_title" />
+
+    <Spinner
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_below="@+id/etMarker_title"
+        android:layout_width="220dp"
+        android:entries="@array/categories"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:text="Cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/but_cancel"
+        android:layout_below="@+id/spinner"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/textviewcenter_shape"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:text="Ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/but_ok"
+        android:layout_toRightOf="@+id/but_cancel"
+        android:layout_below="@+id/spinner"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="24dp"
+        android:background="@drawable/textviewcenter_shape"
+        android:layout_marginBottom="10dp" />
+</RelativeLayout>

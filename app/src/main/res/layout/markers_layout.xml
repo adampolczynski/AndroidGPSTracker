@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/runners_head"
+        android:layout_weight="0.2">
+
+        <TextView
+            android:text="@string/your_markers"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView13"
+            android:textSize="30sp"
+            android:gravity="center" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/slideMarkers_panel"
+        android:layout_weight="0.1"
+        android:background="@color/colorAccent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:srcCompat="?android:attr/homeAsUpIndicator"
+            android:id="@+id/navi_toucharrow"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentLeft="true"
+            android:rotation="180" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/table_info"
+        android:layout_weight="0.05"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:text="Your markers:"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView"
+            android:layout_weight="1"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gv_markers"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:background="@color/panel_but2"
+        android:numColumns="2"
+        android:isScrollContainer="true">
+
+    </GridView>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/runners_bottom"
+        android:layout_weight="0.1"
+        android:background="@color/colorPrimary"
+        android:gravity="right">
+        <ImageButton
+            android:layout_height="match_parent"
+            app:srcCompat="@android:drawable/ic_menu_delete"
+            android:id="@+id/ib_deleteMarker"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:elevation="7dp"
+            android:padding="2dp"
+            android:layout_width="50dp" />
+    </LinearLayout>
+</LinearLayout>

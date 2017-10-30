@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableRow
+
+    android:id="@+id/tablerow" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/common_google_signin_btn_icon_dark_disabled"
+        android:background="@null"
+        android:padding="6dp"
+        android:layout_weight="0.15" />
+
+    <TextView
+        android:id="@+id/tv_loc"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.20"
+        android:gravity="center"
+        android:text="Konin"
+        android:textSize="16sp"
+        android:background="@color/panel_but1"
+        android:alpha="130" />
+
+    <TextView
+        android:id="@+id/tv_dist"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.20"
+        android:gravity="center"
+        android:text="524 KM"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.20"
+        android:gravity="center"
+        android:text="124 PD"
+        android:textSize="18sp"
+        android:id="@+id/tv_pts"
+        android:background="@color/panel_but1"
+        android:alpha="130"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:id="@+id/tv_date" />
+
+</TableRow>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="google_maps_key">AIzaSyDA97KKog1ZeEqtfFZ-odwio-hiWrPU1HU</string>
+    <string name="app_name">Simple Tracker</string>
+    <string name="background">Mierz przebyty dystans, zapisz trase, utwórz znacznik na mapie, zarządzaj! Aplikacja utworzona jako część portfolio.</string>
+    <string name="title_activity_maps_fragment">GoogleMap</string>
+    <string name="facebook_app_id">201183643678807</string>
+    <string name="but1text">Panel użyt</string>
+    <string name="but2text">Google Map</string>
+    <string name="but3text">Trasy</string>
+    <string name="but4text">Znaczniki</string>
+    <string name="but5text">Ustawienia</string>
+    <string name="slide">Przesuń by zapisać!</string>
+    <string name="user_info">Troche informacji o Tobie:</string>
+    <string name="main_statistics">Statystyki:</string>
+    <string name="main_distance">Całkowity dystans:</string>
+    <string name="main_points">Punkty razem:</string>
+    <string name="main_going">Wybierasz sie gdzieś? Zmierz to!</string>
+    <string name="not_logged">Niezalogowany</string>
+    <string name="dialog_marker_title">Utwórz znacznik.</string>
+    <string name="your_markers">Twoje znaczniki:</string>
+    <string name="your_tracks">Twoje trasy:</string>
+    <string name="user_name">Nazwa:</string>
+    <string name="user_mob">Pojazd:</string>
+    <string name="user_appro">Podejście:</string>
+    <string name="user_destiny">Obrany cel:</string>
+    <string name="user_motiv">Motywacja:</string>
+    <string name="current_points">Aktualne punkty:</string>
+    <string name="current_distance">Aktualny dystans:</string>
+    <string-array name="categories"><item>Information</item><item>Warning</item></string-array>
+</resources>

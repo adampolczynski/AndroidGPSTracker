@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@null">
+
+    <ImageButton
+        android:src="@drawable/wheel"
+        android:id="@+id/wheel_panel"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:translationZ="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="66dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="24dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/top"
+        android:layout_marginRight="138dp"
+        android:layout_height="60dp"
+        android:background="@drawable/bottom_shape" />
+
+    <Button
+        android:text="@string/but1text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:background="@drawable/button1_shape"
+        android:alpha="200"
+        android:layout_marginRight="120dp"
+        android:layout_below="@+id/top" />
+
+    <Button
+        android:text="@string/but2text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:background="@drawable/button2_shape"
+        android:layout_below="@+id/button"
+        android:layout_marginRight="116dp" />
+
+    <Button
+        android:text="@string/but3text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:background="@drawable/button3_shape"
+        android:layout_below="@+id/button2"
+        android:layout_marginRight="126dp"/>
+
+    <Button
+        android:text="@string/but4text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:background="@drawable/button4_shape"
+        android:layout_below="@+id/button3"
+        android:layout_marginRight="118dp"/>
+
+    <Button
+        android:text="@string/but5text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:background="@drawable/button5_shape"
+        android:layout_below="@+id/button4"
+        android:layout_marginRight="120dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@null"
+        android:id="@+id/imageView2"
+        android:layout_below="@+id/button5"
+        android:layout_marginRight="138dp"
+        android:padding="20dp"
+        android:background="@drawable/bottom_shape"
+        android:layout_alignParentBottom="true"
+        android:src="@null" />
+
+</RelativeLayout>
